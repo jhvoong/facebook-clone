@@ -11,25 +11,25 @@ function Feed() {
       <MessageSender />
 
       <Post
-        profilePic={"https://picsum.photos/200/300"}
+        profilePic={"https://picsum.photos/500/300"}
         message={"message"}
         timestamp={"timestamp"}
         username={"username"}
-        image={"https://picsum.photos/200/300"}
+        image={"https://picsum.photos/500/300"}
       />
       <Post
-        profilePic={"https://picsum.photos/200/300"}
+        profilePic={"https://picsum.photos/500/300"}
         message={"message"}
         timestamp={"timestamp"}
         username={"username"}
-        image={"https://picsum.photos/200/300"}
+        image={"https://picsum.photos/500/300"}
       />
       <Post
-        profilePic={"https://picsum.photos/200/300"}
+        profilePic={"https://picsum.photos/500/300"}
         message={"message"}
         timestamp={"timestamp"}
         username={"username"}
-        image={"https://picsum.photos/200/300"}
+        image={"https://picsum.photos/500/300"}
       />
     </div>
   )

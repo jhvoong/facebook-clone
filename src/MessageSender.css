@@ -44,6 +44,14 @@
   margin: 5px;
 }
 
+.messageSender__option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
 .messageSender__option > h3 {
   font-size: medium;
   margin-left: 10px;
