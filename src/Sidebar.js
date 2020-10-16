@@ -8,13 +8,14 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import {ExpandMoreOutlined} from "@material-ui/icons"
+import { useStateValue } from "./StateProvider"
+
 function Sidebar() {
+const [{ user }, dispatch] = useStateValue();
+debugger;
   return (
     <div className="sidebar">
-      <SidebarRow
-        src="google.com"
-        title="username"
-      />
+      <SidebarRow src={user.photoURL} title={user.displayName} />
       <SidebarRow Icon={LocalHospitalization} title="COVID-19 Information Center" />
       <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
       <SidebarRow Icon={PeopleIcon} title="Friends" />
